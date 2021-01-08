@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "addalch",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Additional Alchemy",
+  "description": "More potion effects and types for fabric, yay!",
   "authors": [
-    "Me!"
+    "aww_shoot#8649"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/AwwShoot/additional-alchemy"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/addalch/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.addalch.core.AdditionalAlchemy"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "addalch.mixins.json"
   ],
 
   "depends": {

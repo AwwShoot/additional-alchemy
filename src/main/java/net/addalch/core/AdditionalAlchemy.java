@@ -1,8 +1,8 @@
-package net.fabricmc.example;
+package net.addalch.core;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class AdditionalAlchemy implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -10,5 +10,6 @@ public class ExampleMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		System.out.println("Hello Fabric world!");
+		ModRegistry.register();
 	}
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "addalch:item/sipnsplash_overlay",
+    "layer1": "addalch:item/sipnsplash_potion"
+  }
+}
